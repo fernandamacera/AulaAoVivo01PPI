@@ -27,6 +27,30 @@ server.get('/',(requisisao, resposta) => {
         
         `)
 });
+// criar um método que aceita parametros
+server.get('/tabuada',(requisisao, resposta) => {
+    //tabuada de qual numero ate qual sequencia?
+    const numero = requisisao.query.numero;
+    const sequencia = requisisao.query.numero;
+    let tabuada = "";
+    console.log("requisisao tabuada");
+
+    resposta.send(`
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html>`)
+
+})
+//
 
 server.listen(porta, host, () => {
     console.log(`Servidor executando em http://${host}:${porta}`);
