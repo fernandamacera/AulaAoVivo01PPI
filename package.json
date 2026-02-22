@@ -1,0 +1,30 @@
+{
+  "name": "aulaaovivo01ppi",
+  "version": "1.0.0",
+  "description": "Primeiro programa para a internet usando node + express",
+  "keywords": [
+    "http",
+    "node",
+    "express",
+    "PPI"
+  ],
+  "homepage": "https://github.com/fernandamacera/AulaAoVivo01PPI#readme",
+  "bugs": {
+    "url": "https://github.com/fernandamacera/AulaAoVivo01PPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandamacera/AulaAoVivo01PPI.git"
+  },
+  "license": "ISC",
+  "author": "Fernanda Macera",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
